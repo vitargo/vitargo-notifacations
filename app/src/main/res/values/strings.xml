@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">vitargo-notifications</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Show</string>
+    <string name="previous">Previous</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete">Delete</string>
+    <string name="not_info">Notification Info</string>
+
+    <string name="notification_title">Title</string>
+    <string name="notification_text">Text</string>
+    <string name="notification_date">Date</string>
+    <string name="notification_check">+</string>
+    <string name="notification_title_semicolon">Title:</string>
+    <string name="notification_text_semicolon">Text:</string>
+    <string name="notification_date_semicolon">Date"</string>
+
+    <string name="add_not_question">New Notification</string>
+    <string name="new_notification_title">your title</string>
+    <string name="new_notification_text">your text</string>
+    <string name="new_notification_date">your date</string>
+    <string name="new_notification_time">your time</string>
+
+    <string name="player_name">name</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="check_box_state">cb_state</string>
+
+    <string name="checked_notification">checked_notification</string>
+    <string name="cb_title">cb_title</string>
+    <string name="cb_text">cb_text</string>
+    <string name="cb_date">cb_date</string>
+
+    <string name="hello_first_fragment">Your Notifications</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

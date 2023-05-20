@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SecondFragment">
+
+    <TextView
+            android:id="@+id/textview_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_info"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/not_scrol_one"
+    />
+    <ScrollView
+    android:id="@+id/not_scrol_one"
+    android:layout_marginTop="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:layout_weight="1"
+    app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="70dp">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:isScrollContainer="true">
+        <TableLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1"
+                android:id="@+id/notification"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow android:visibility="visible"
+
+                      android:id="@+id/column_title_one">
+                <TextView
+                        android:id="@+id/title_one_label"
+                        android:text="@string/notification_title_semicolon"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="10dp"/>
+                <TextView
+                        android:id="@+id/title_one_value"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="10dp"/>
+            </TableRow>
+            <TableRow android:visibility="visible"
+
+                      android:id="@+id/column_text_one">
+                <TextView
+                        android:id="@+id/text_one_label"
+                        android:text="@string/notification_text_semicolon"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="10dp"/>
+                <TextView
+                        android:id="@+id/text_one_value"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="10dp"/>
+            </TableRow>
+            <TableRow android:visibility="visible"
+
+                      android:id="@+id/column_date_one">
+                <TextView
+                        android:id="@+id/date_one_label"
+                        android:text="@string/notification_date_semicolon"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="10dp"/>
+                <TextView
+                        android:id="@+id/date_one_value"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="10dp"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+
+    <Button
+            android:id="@+id/button_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+    <Button
+            android:id="@+id/button_second_delele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
